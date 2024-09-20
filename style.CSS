@@ -1,0 +1,29 @@
+li{
+    list-style-type: url();
+}
+
+table{
+    border-spacing: 0;
+    width: 30%;
+}
+thead{
+    background-color: gray;
+    color: #ffffff;
+}
+tbody td:nth-child(3){
+    text-align: center;
+}
+tbody td:nth-child(2){
+    padding-left: 40px;
+}
+tbody tr:nth-child(odd){
+    background-color: lightgray;
+    color: #ffffff;
+}
+tr:hover{
+    background-color: lightyellow;
+}
+tr{
+    transition: background-color 1s;
+}
+
