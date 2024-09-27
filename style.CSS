@@ -1,5 +1,8 @@
 li{
-    list-style-type: url();
+    list-style-image: url(checkbox-checked-regular-24.png);
+}
+#ejcheck{
+    list-style-image: url(checkbox-regular-24.png);
 }
 
 table{
@@ -24,9 +27,9 @@ tbody tr:nth-child(odd){
     background-color: lightgray;
     color: #ffffff;
 }
-tr:hover{
+tbody tr:hover{
     background-color: lightyellow;
 }
-tr{
+tbody tr{
     transition: background-color 1s;
 }
